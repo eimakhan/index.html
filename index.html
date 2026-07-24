@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>YouTube Clone — HTML & CSS</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <header class="topbar">
+            <div class="topbar-left">
+                <button class="menu">☰</button>
+                <div class="logo">YouTube</div>
+            </div>
+
+            <form class="search" action="#" onsubmit="return false;">
+                <input type="search" placeholder="Search" aria-label="Search">
+                <button type="submit">🔍</button>
+            </form>
+
+            <div class="topbar-right">
+                <div class="icon">⬆</div>
+                <div class="icon">◻</div>
+                <div class="avatar">
+                    <img src="thumbnail-4.webp" alt="profile">
+                </div>
+            </div>
+        </header>
+
+        <aside class="sidebar">
+            <nav>
+                <a class="nav-item active">Home</a>
+                <a class="nav-item">Explore</a>
+                <a class="nav-item">Subscriptions</a>
+                <a class="nav-item">Library</a>
+            </nav>
+        </aside>
+
+        <main class="content">
+            <section class="hero">
+                <h2>Recommended</h2>
+                <div class="video-grid">
+
+                    <!-- Video 1 -->
+                    <article class="video">
+                        <a class="thumb-container" href="#">
+                            <img class="thumb" src="thumbnail-1.webp" alt="thumb">
+                            <div class="video-time">14:20</div>
+                        </a>
+                        <div class="meta">
+                            <img class="channel" src="thumbnail-1.webp" alt="channel">
+                            <div class="text">
+                                <div class="title">Talking Tech and AI with Sundar Pichai</div>
+                                <div class="channel-name">Marques Brownlee</div>
+                                <div class="views">3.4M views · 6 months ago</div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Video 2 -->
+                    <article class="video">
+                        <a class="thumb-container" href="#">
+                            <img class="thumb" src="thumbnail-2.webp" alt="thumb">
+                            <div class="video-time">8:22</div>
+                        </a>
+                        <div class="meta">
+                            <img class="channel" src="thumbnail-2.webp" alt="channel">
+                            <div class="text">
+                                <div class="title">Try Not To Laugh Challenge #9</div>
+                                <div class="channel-name">Markiplier</div>
+                                <div class="views">19M views · 4 years ago</div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Video 3 -->
+                    <article class="video">
+                        <a class="thumb-container" href="#">
+                            <img class="thumb" src="thumbnail-3.webp" alt="thumb">
+                            <div class="video-time">9:13</div>
+                        </a>
+                        <div class="meta">
+                            <img class="channel" src="thumbnail-3.webp" alt="channel">
+                            <div class="text">
+                                <div class="title">Crazy TikToks Taken Moments Before Disaster</div>
+                                <div class="channel-name">SSSniperWolf</div>
+                                <div class="views">12M views · 1 year ago</div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Video 4 -->
+                    <article class="video">
+                        <a class="thumb-container" href="#">
+                            <img class="thumb" src="thumbnail-4.webp" alt="thumb">
+                            <div class="video-time">22:09</div>
+                        </a>
+                        <div class="meta">
+                            <img class="channel" src="thumbnail-4.webp" alt="channel">
+                            <div class="text">
+                                <div class="title">The Simplest Math Problem No One Can Solve</div>
+                                <div class="channel-name">Veritasium</div>
+                                <div class="views">18M views · 4 months ago</div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Video 5 -->
+                    <article class="video">
+                        <a class="thumb-container" href="#">
+                            <img class="thumb" src="thumbnail-5.webp" alt="thumb">
+                            <div class="video-time">11:17</div>
+                        </a>
+                        <div class="meta">
+                            <img class="channel" src="thumbnail-5.webp" alt="channel">
+                            <div class="text">
+                                <div class="title">Kadane's Algorithm — Maximum Sum Subarray</div>
+                                <div class="channel-name">CS Dojo</div>
+                                <div class="views">3.4M views · 6 months ago</div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Video 6 -->
+                    <article class="video">
+                        <a class="thumb-container" href="#">
+                            <img class="thumb" src="thumbnail-6.webp" alt="thumb">
+                            <div class="video-time">19:59</div>
+                        </a>
+                        <div class="meta">
+                            <img class="channel" src="thumbnail-6.webp" alt="channel">
+                            <div class="text">
+                                <div class="title">Anything You Can Fit In The Circle I'll Pay For</div>
+                                <div class="channel-name">MrBeast</div>
+                                <div class="views">141M views · 1 year ago</div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Video 7 -->
+                    <article class="video">
+                        <a class="thumb-container" href="#">
+                            <img class="thumb" src="thumbnail-7.webp" alt="thumb">
+                            <div class="video-time">10:13</div>
+                        </a>
+                        <div class="meta">
+                            <img class="channel" src="thumbnail-7.webp" alt="channel">
+                            <div class="text">
+                                <div class="title">Why Planes Don't Fly Over Tibet</div>
+                                <div class="channel-name">RealLifeLore</div>
+                                <div class="views">6.6M views · 1 year ago</div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Video 8 -->
+                    <article class="video">
+                        <a class="thumb-container" href="#">
+                            <img class="thumb" src="thumbnail-8.webp" alt="thumb">
+                            <div class="video-time">7:12</div>
+                        </a>
+                        <div class="meta">
+                            <img class="channel" src="thumbnail-8.webp" alt="channel">
+                            <div class="text">
+                                <div class="title">Inside The World's Biggest Passenger Plane</div>
+                                <div class="channel-name">Tech Vision</div>
+                                <div class="views">3.7M views · 10 months ago</div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Video 9 -->
+                    <article class="video">
+                        <a class="thumb-container" href="#">
+                            <img class="thumb" src="thumbnail-9.webp" alt="thumb">
+                            <div class="video-time">13:17</div>
+                        </a>
+                        <div class="meta">
+                            <img class="channel" src="thumbnail-9.webp" alt="channel">
+                            <div class="text">
+                                <div class="title">The SECRET to Super Human STRENGTH</div>
+                                <div class="channel-name">Thenx</div>
+                                <div class="views">20M views · 3 years ago</div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Video 10 -->
+                    <article class="video">
+                        <a class="thumb-container" href="#">
+                            <img class="thumb" src="thumbnail-10.webp" alt="thumb">
+                            <div class="video-time">7:53</div>
+                        </a>
+                        <div class="meta">
+                            <img class="channel" src="thumbnail-10.webp" alt="channel">
+                            <div class="text">
+                                <div class="title">How The World's Largest Cruise Ship Makes 30,000 Meals</div>
+                                <div class="channel-name">Business Insider</div>
+                                <div class="views">14M views · 1 year ago</div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Video 11 -->
+                    <article class="video">
+                        <a class="thumb-container" href="#">
+                            <img class="thumb" src="thumbnail-11.webp" alt="thumb">
+                            <div class="video-time">4:10</div>
+                        </a>
+                        <div class="meta">
+                            <img class="channel" src="thumbnail-11.webp" alt="channel">
+                            <div class="text">
+                                <div class="title">Dubai's Crazy Underwater Train and Other Things</div>
+                                <div class="channel-name">Destination Tips</div>
+                                <div class="views">3M views · 1 year ago</div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Video 12 -->
+                    <article class="video">
+                        <a class="thumb-container" href="#">
+                            <img class="thumb" src="thumbnail-12.webp" alt="thumb">
+                            <div class="video-time">4:51</div>
+                        </a>
+                        <div class="meta">
+                            <img class="channel" src="thumbnail-12.webp" alt="channel">
+                            <div class="text">
+                                <div class="title">What would happen if you didn’t drink water?</div>
+                                <div class="channel-name">TED-Ed</div>
+                                <div class="views">12M views · 5 years ago</div>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </section>
+        </main>
+
+    </body>
+</html>
